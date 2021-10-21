@@ -3,6 +3,6 @@ Flask_SoketIO implementation of an algorithmn API. The API is based on the webso
 
 
 # Installation
-'''pyhon
+```pyhon
 pip install -r requirements
-'''
+```
