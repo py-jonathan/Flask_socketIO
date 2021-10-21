@@ -1,3 +1,4 @@
 # Flask_Socketio_API
-PyTorch implementation of siamese and triplet networks for learning embeddings.
+Flask_SoketIO implementation of an algorithmn API.
+
 # Installation
