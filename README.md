@@ -19,9 +19,9 @@ pip install -r requirements
 
 # Code Structure
 - **server.py**
-  - *SiameseMNIST* class - wrapper for a MNIST-like dataset, returning random positive and negative pairs
-  - *TripletMNIST* class - wrapper for a MNIST-like dataset, returning random triplets (anchor, positive and negative)
-  - *BalancedBatchSampler* class - BatchSampler for data loader, randomly chooses *n_classes* and *n_samples* from each class based on labels
+  - Recieve messages with JSON format from the client.
+  - Run the model with received messages.
+  - Send messages to the client.
 - **client.py**
   - *EmbeddingNet* - base network for encoding images into embedding vector
   - *ClassificationNet* - wrapper for an embedding network, adds a fully connected layer and log softmax for classification
