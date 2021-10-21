@@ -19,9 +19,9 @@ pip install -r requirements
 
 # Code Structure
 - **server.py**
-  - Recieve messages with JSON format from the client.
-  - Run the model with received messages.
-  - Send messages to the client.
+  - Recieve messages with JSON format from the client
+  - Run the model with received messages
+  - Send messages to the client
 - **client.py**
   - *EmbeddingNet* - base network for encoding images into embedding vector
   - *ClassificationNet* - wrapper for an embedding network, adds a fully connected layer and log softmax for classification
