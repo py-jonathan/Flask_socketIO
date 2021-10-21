@@ -10,7 +10,7 @@ websocket-client==1.2.1\
 python-socketio==5.4.1\
 python-engineio==4.2.1\
 python-dateutil==2.8.2\
-requests==2.26.0\
+requests==2.26.0
 
 You can also install packages with pip install
 ```pyhon
