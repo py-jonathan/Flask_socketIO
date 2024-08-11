@@ -21,7 +21,8 @@ pip install -r requirements
 - **server.py**
   - Recieve messages with JSON format from the client
   - Run the model with received messages
-  - Send messages to the client <br />
+  - Send messages to the client
+    
 - **client.py**
   - Send messages with JSON format to the server
   - Recieve results from the server
